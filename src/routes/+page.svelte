@@ -35,4 +35,7 @@
 	<li>
 		<Link href="/chapter-one/reactivity/declarations" title="Task 2 - Reactive declarations" />
 	</li>
+	<li>
+		<Link href="/chapter-one/reactivity/statements" title="Task 3 - Reactive statements" />
+	</li>
 </ul>
