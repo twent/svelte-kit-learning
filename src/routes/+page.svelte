@@ -32,4 +32,7 @@
 	<li>
 		<Link href="/chapter-one/reactivity/assignments" title="Task 1 - Assignments" />
 	</li>
+	<li>
+		<Link href="/chapter-one/reactivity/declarations" title="Task 2 - Reactive declarations" />
+	</li>
 </ul>
