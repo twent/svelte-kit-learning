@@ -45,3 +45,10 @@
 		/>
 	</li>
 </ul>
+
+<h3>1.3 Props</h3>
+<ul>
+	<li>
+		<Link href="/chapter-one/props/declaring" title="Task 1 - Declaring props" />
+	</li>
+</ul>
