@@ -51,4 +51,7 @@
 	<li>
 		<Link href="/chapter-one/props/declaring" title="Task 1 - Declaring props" />
 	</li>
+	<li>
+		<Link href="/chapter-one/props/default-values" title="Task 2 - Default values" />
+	</li>
 </ul>
