@@ -38,4 +38,10 @@
 	<li>
 		<Link href="/chapter-one/reactivity/statements" title="Task 3 - Reactive statements" />
 	</li>
+	<li>
+		<Link
+			href="/chapter-one/reactivity/updating-data"
+			title="Task 4 - Updating arrays and objects"
+		/>
+	</li>
 </ul>
