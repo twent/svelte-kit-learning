@@ -54,4 +54,7 @@
 	<li>
 		<Link href="/chapter-one/props/default-values" title="Task 2 - Default values" />
 	</li>
+	<li>
+		<Link href="/chapter-one/props/spread" title="Task 3 - Spread props" />
+	</li>
 </ul>
