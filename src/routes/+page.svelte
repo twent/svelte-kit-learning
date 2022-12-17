@@ -64,4 +64,7 @@
 	<li>
 		<Link href="/chapter-one/logic/if" title="Task 1 - If-blocks" />
 	</li>
+	<li>
+		<Link href="/chapter-one/logic/else" title="Task 2 - Else-blocks" />
+	</li>
 </ul>
