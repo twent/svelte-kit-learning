@@ -76,4 +76,7 @@
 	<li>
 		<Link href="/chapter-one/logic/keyed-each" title="Task 5 - Keyed Each-blocks" />
 	</li>
+	<li>
+		<Link href="/chapter-one/logic/await" title="Task 6 - Await-blocks" />
+	</li>
 </ul>
