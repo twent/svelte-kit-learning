@@ -58,3 +58,10 @@
 		<Link href="/chapter-one/props/spread" title="Task 3 - Spread props" />
 	</li>
 </ul>
+
+<h3>1.3 Props</h3>
+<ul>
+	<li>
+		<Link href="/chapter-one/logic/if" title="Task 1 - If-blocks" />
+	</li>
+</ul>
