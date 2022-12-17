@@ -73,4 +73,7 @@
 	<li>
 		<Link href="/chapter-one/logic/each" title="Task 4 - Each-blocks" />
 	</li>
+	<li>
+		<Link href="/chapter-one/logic/keyed-each" title="Task 5 - Keyed Each-blocks" />
+	</li>
 </ul>
