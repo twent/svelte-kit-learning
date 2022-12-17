@@ -59,7 +59,7 @@
 	</li>
 </ul>
 
-<h3>1.3 Props</h3>
+<h3>1.4 Logic</h3>
 <ul>
 	<li>
 		<Link href="/chapter-one/logic/if" title="Task 1 - If-blocks" />
@@ -69,5 +69,8 @@
 	</li>
 	<li>
 		<Link href="/chapter-one/logic/else-if" title="Task 3 - Else-if-blocks" />
+	</li>
+	<li>
+		<Link href="/chapter-one/logic/each" title="Task 4 - Each-blocks" />
 	</li>
 </ul>
