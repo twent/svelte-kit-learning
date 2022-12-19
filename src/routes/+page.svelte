@@ -86,4 +86,7 @@
 	<li>
 		<Link href="/chapter-one/events/dom" title="Task 1 - DOM events" />
 	</li>
+	<li>
+		<Link href="/chapter-one/events/inline" title="Task 2 - Inline event handlers" />
+	</li>
 </ul>
