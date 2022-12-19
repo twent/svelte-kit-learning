@@ -1,6 +1,4 @@
 <script>
-	import HomeLink from '$lib/components/HomeLink.svelte'
-
 	function handleClick() {
 		alert('no more alerts')
 	}
@@ -9,7 +7,7 @@
 <h3>DOM event handlers can have <em>modifiers</em> that alter their behaviour.</h3>
 <p>For example, a handler with a <code>once</code> modifier will only run a single time:</p>
 
-<button on:click|once|capture={handleClick}> Click me </button>
+<a href="#" role="button" on:click|once|capture={handleClick}> Click me </a>
 
 <h4>The full list of modifiers:</h4>
 <ul>
@@ -42,5 +40,3 @@
 	</li>
 </ul>
 <p>You can chain modifiers together, e.g. <code>on:click|once|capture={'{'}...{'}'}</code>.</p>
-
-<HomeLink />

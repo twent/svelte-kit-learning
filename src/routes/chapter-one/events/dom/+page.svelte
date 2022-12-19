@@ -1,6 +1,4 @@
 <script>
-	import HomeLink from '$lib/components/HomeLink.svelte'
-
 	let m = { x: 0, y: 0 }
 
 	function handleMousemove(event) {
@@ -12,8 +10,6 @@
 <div on:mousemove={handleMousemove}>
 	<h3>The mouse position is {m.x} x {m.y}</h3>
 </div>
-
-<HomeLink />
 
 <style>
 	div {

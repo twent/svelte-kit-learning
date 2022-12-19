@@ -1,6 +1,4 @@
 <script>
-	import { HomeLink } from '$lib/index'
-
 	let x = 4
 	function increment() {
 		return x++
@@ -15,8 +13,6 @@
 	<p>{x} is between 5 and 10</p>
 {/if}
 
-<button on:click={increment}>
+<a href="#" role="button" on:click={increment}>
 	{x} + 1
-</button>
-
-<HomeLink />
+</a>

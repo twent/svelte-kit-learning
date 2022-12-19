@@ -1,6 +1,4 @@
 <script>
-	import { HomeLink } from '$lib/index.js'
-
 	let numbers = [1, 2, 3, 4]
 
 	function addNumber() {
@@ -14,6 +12,4 @@
 
 <p>{numbers.join(' + ')} = {sum}</p>
 
-<button on:click={addNumber}>Add a number</button>
-
-<HomeLink />
+<a href="#" role="button" on:click={addNumber}>Add a number</a>

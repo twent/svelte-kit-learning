@@ -1,5 +1,5 @@
 <script>
-	import { HomeLink, RepoInfo } from '$lib/index'
+	import { RepoInfo } from '$lib/index'
 
 	const repoData = {
 		name: 'svelte-kit-learning',
@@ -13,5 +13,3 @@
 
 <!-- This is require more code
 <RepoInfo name={pkg.name} version={pkg.version} speed={pkg.speed} website={pkg.link} />-->
-
-<HomeLink />

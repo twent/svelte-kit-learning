@@ -1,6 +1,4 @@
 <script>
-	import { HomeLink } from '$lib/index.js'
-
 	let count = 0
 
 	$: if (count >= 2) {
@@ -14,9 +12,7 @@
 	}
 </script>
 
-<button on:click={increment}>
+<a href="#" role="button" on:click={increment}>
 	Clicked {count}
 	{count === 1 ? 'time' : 'times'}
-</button>
-
-<HomeLink />
+</a>

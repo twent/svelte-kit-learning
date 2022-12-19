@@ -1,6 +1,4 @@
 <script>
-	import { HomeLink } from '$lib/index'
-
 	let user = { loggedIn: false }
 
 	function toggle() {
@@ -9,9 +7,7 @@
 </script>
 
 {#if user.loggedIn}
-	<button on:click={toggle}> Log out </button>
+	<a href="#" role="button" on:click={toggle}> Log out </a>
 {:else}
-	<button on:click={toggle}> Log in </button>
+	<a href="#" role="button" on:click={toggle}> Log in </a>
 {/if}
-
-<HomeLink />

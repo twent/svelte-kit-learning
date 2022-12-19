@@ -1,7 +1,5 @@
 <script>
-	import { Answer, HomeLink } from '$lib/index'
+	import { Answer } from '$lib/index'
 </script>
 
 <Answer answer={20} />
-
-<HomeLink />

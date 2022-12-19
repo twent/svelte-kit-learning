@@ -1,6 +1,4 @@
 <script>
-	import { HomeLink } from '$lib/index'
-
 	let cats = [
 		{
 			id: 'J---aiyznGQ',
@@ -29,5 +27,3 @@
 		</li>
 	{/each}
 </ul>
-
-<HomeLink />

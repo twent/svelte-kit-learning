@@ -1,5 +1,5 @@
 <script>
-	import { HomeLink, Thing } from '$lib/index'
+	import { Thing } from '$lib/index'
 
 	let things = [
 		{ id: 1, name: 'apple' },
@@ -14,10 +14,8 @@
 	}
 </script>
 
-<button on:click={handleClick}>Remove first thing</button>
+<a href="#" role="button" on:click={handleClick}>Remove first thing</a>
 
 {#each things as thing (thing.id)}
 	<Thing name={thing.name} />
 {/each}
-
-<HomeLink />

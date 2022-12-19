@@ -1,6 +1,4 @@
 <script>
-	import { HomeLink } from '$lib/index'
-
 	async function getRandomNumber() {
 		const res = await fetch(`https://svelte.dev/tutorial/random-number`)
 		const text = await res.text()
@@ -19,7 +17,7 @@
 	}
 </script>
 
-<button on:click={handleClick}> generate random number </button>
+<a href="#" role="button" on:click={handleClick}> generate random number </a>
 
 {#await promise}
 	<p>...waiting</p>
@@ -28,5 +26,3 @@
 {:catch error}
 	<p style="color: red">{error.message}</p>
 {/await}
-
-<HomeLink />

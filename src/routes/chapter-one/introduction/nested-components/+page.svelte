@@ -1,10 +1,10 @@
 <script>
-	import { HomeLink } from '$lib/index.js'
+	import { DefaultAnswer } from '$lib/index.js'
 </script>
 
 <p>This is a paragraph.</p>
 <br />
-<HomeLink />
+<DefaultAnswer />
 
 <style>
 	p {
