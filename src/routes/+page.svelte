@@ -80,3 +80,10 @@
 		<Link href="/chapter-one/logic/await" title="Task 6 - Await-blocks" />
 	</li>
 </ul>
+
+<h3>1.5 Events</h3>
+<ul>
+	<li>
+		<Link href="/chapter-one/events/dom" title="Task 1 - DOM events" />
+	</li>
+</ul>
