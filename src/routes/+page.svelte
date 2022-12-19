@@ -2,9 +2,9 @@
 	import { Link } from '$lib/index.js'
 </script>
 
-<h1>SvelteKit Dev Learning Tasks:</h1>
+<h1>SvelteKit Dev Learning Tasks</h1>
 
-<h2>1 Getting Started with Svelte</h2>
+<h2>1. Getting Started with Svelte</h2>
 <h3>1.1 Introduction</h3>
 <ul>
 	<li>
