@@ -89,4 +89,7 @@
 	<li>
 		<Link href="/chapter-one/events/inline" title="Task 2 - Inline event handlers" />
 	</li>
+	<li>
+		<Link href="/chapter-one/events/modifiers" title="Task 2 - Event modifiers" />
+	</li>
 </ul>
