@@ -1,22 +1,31 @@
 <script>
 	import { page } from '$app/stores'
-	import navigationData from '$lib/data/navigation.json'
+	import { afterUpdate } from 'svelte'
 
-	let pathname = $page.url.pathname
-	var paths = pathname.split('/')
+	/**
+	 * @type {any[]}
+	 */
+	let breadcrumbs = []
 
-	// remove the last element if there was a / at the end of the pathname
-	paths = paths[paths.length - 1] === '' ? paths.slice(0, paths.length - 1) : paths
+	afterUpdate(async () => {
+		let pathname = $page.url.pathname
+		let paths = pathname.split('/')
 
-	// remove the first element if the second one is an empty string which means that we are in the root of the website
-	paths = paths[0] === '' ? paths.slice(1) : paths
+		// remove the last element if there was a / at the end of the pathname
+		paths = paths[paths.length - 1] === '' ? paths.slice(0, paths.length - 1) : paths
 
-	let breadcrumbs = paths.map((path, index) => {
-		// Build the path for the current URL
-		var url = '/' + paths.slice(0, index + 1).join('/')
+		// remove the first element if the second one is an empty string which means that we are in the root of the website
+		paths = paths[0] === '' ? paths.slice(1) : paths
 
-		// HTML structure for every link except the first
-		return `<li><a key=${index} href=${url}>${path}</a></li>`
+		breadcrumbs = paths.map((path, index) => {
+			// Build the path for the current URL
+			let url = '/' + paths.slice(0, index + 1).join('/')
+			// Build caption with replacing slashes
+			let caption = path.replace(/-/g, ' ')
+
+			// HTML structure for every link except the first
+			return `<li><a style="text-transform: capitalize;" href=${url}>${caption}</a></li>`
+		})
 	})
 </script>
 

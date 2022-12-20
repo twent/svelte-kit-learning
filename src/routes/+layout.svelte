@@ -19,13 +19,13 @@
 	</nav>
 
 	<!-- Breadcrumbs -->
-	{#if $page.route.id != '/'}
+	{#if $page.url.pathname != '/'}
 		<Breadcrumbs />
 	{/if}
 
 	<slot />
 
-	{#if $page.route.id != '/'}
+	{#if $page.url.pathname != '/'}
 		<footer>
 			<HomeLink />
 		</footer>
