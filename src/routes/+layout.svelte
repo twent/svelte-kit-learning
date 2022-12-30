@@ -3,7 +3,7 @@
 	import { Breadcrumbs, HomeLink } from '$lib/index'
 </script>
 
-<main>
+<main class="container">
 	<!-- Header Nav -->
 	<nav>
 		<ul>

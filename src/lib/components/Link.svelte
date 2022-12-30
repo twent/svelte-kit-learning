@@ -3,4 +3,4 @@
 	export let title
 </script>
 
-<a {href}>{title}</a>
+<a class="secondary" {href}>{title}</a>
