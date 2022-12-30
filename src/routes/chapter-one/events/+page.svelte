@@ -21,4 +21,7 @@
 	<li>
 		<Link href="/chapter-one/events/components" title="Task 4 - Component events" />
 	</li>
+	<li>
+		<Link href="/chapter-one/events/forwarding" title="Task 5 - Event forwarding" />
+	</li>
 </ul>
